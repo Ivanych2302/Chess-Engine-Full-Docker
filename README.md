@@ -17,12 +17,12 @@
 ## 💰 How to get Full Source Code? / Як отримати вихідний код?
 
 The full version of the project, including all configurations and Docker files, is available via Patreon.
-Повна версія проекту з усіма конфігураціями та Docker-файлами доступна через Patreon.
+Повна версія проєкту з усіма конфігураціями та Docker-файлами доступна через Patreon.
 
-👉 **[GET FULL ACCESS FOR $15 / ОТРИМАТИ ДОСТУП ЗА 15$](https://www.patreon.com/Ivanych2302)**
+👉 **[GET FULL ACCESS FOR $15 / ОТРИМАТИ ДОСТУП ЗА 15$](https://www.patreon.com/ivanych)**
 
 *After payment, you will instantly get an automated download link to the ZIP archive.*
 *Після оплати ви миттєво отримаєте автоматичне посилання на завантаження ZIP-архіву.*
 
 ---
-© 2026 Ivanych2302. All rights reserved.
+© 2026 Ivanych. All rights reserved.
