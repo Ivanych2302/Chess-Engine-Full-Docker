@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Іванич | TikTok & Facebook</title>
 
-    <!-- Підтвердження Google Search Console -->
+    <!-- Иконка сайта (Favicon) -->
+    <link rel="icon" type="image/jpeg" href="avatar.jpg">
+
+    <!-- Подтверждение Google Search Console -->
     <meta name="google-site-verification" content="mq4Y9rxyebNKdXGeayJG7xgctcxTcq8OuNeQ4QYlRsY" />
 
-    <!-- Мета-теги для індексації в Google -->
+    <!-- Мета-теги для индексации в Google -->
     <meta name="description" content="Офіційна сторінка-візитка Іванича. Відео, життя, техніка, КАМАЗ та гумор у TikTok і Facebook.">
     <meta name="robots" content="index, follow">
 
-    <!-- Open Graph (красива картка-прев'ю при надсиланні посилання у Viber, Telegram, FB) -->
+    <!-- Open Graph (красивая карточка-превью при отправке ссылки) -->
     <meta property="og:title" content="Іванич | Офіційна сторінка">
     <meta property="og:description" content="Життя, техніка, гумор та контент у моїх соцмережах!">
     <meta property="og:image" content="kamaz.jpg">
@@ -27,7 +30,6 @@
         }
 
         body {
-            /* Затемнення та фото КАМАЗа на фоні */
             background: linear-gradient(rgba(15, 23, 42, 0.82), rgba(15, 23, 42, 0.82)), url('kamaz.jpg');
             background-size: cover;
             background-position: center;
@@ -68,6 +70,13 @@
             font-size: 0.95rem;
             margin-bottom: 25px;
             line-height: 1.4;
+        }
+
+        .hashtag {
+            color: #38bdf8;
+            font-weight: 600;
+            display: inline-block;
+            margin-top: 6px;
         }
 
         .links-container {
@@ -117,7 +126,10 @@
         <img src="avatar.jpg" alt="Іванич" class="avatar">
 
         <h1>Іванич</h1>
-        <p class="bio">Життя, техніка, гумор та контент у моїх соцмережах!</p>
+        <p class="bio">
+            Життя, техніка, гумор та контент у моїх соцмережах!<br>
+            <span class="hashtag">#ivanych.pp.ua</span>
+        </p>
 
         <div class="links-container">
             <a href="https://www.tiktok.com/@san_ivanych" target="_blank" class="btn btn-tiktok">
