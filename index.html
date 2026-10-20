@@ -84,8 +84,23 @@
             background: #1877f2;
         }
 
+        .truck-card {
+            margin-top: 25px;
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 2px solid #334155;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        .truck-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
         footer {
-            margin-top: 30px;
+            margin-top: 25px;
             font-size: 0.8rem;
             color: #64748b;
         }
@@ -94,7 +109,6 @@
 <body>
 
     <div class="container">
-        <!-- Завантаж фото профілю в папку сайту і назви avatar.jpg -->
         <img src="avatar.jpg" alt="Іванич" class="avatar">
 
         <h1>Іванич</h1>
@@ -108,6 +122,11 @@
             <a href="https://www.facebook.com/sashaivanych/" target="_blank" class="btn btn-facebook">
                 📘 Мій Facebook (@sashaivanych)
             </a>
+        </div>
+
+        <!-- Фото КАМАЗа -->
+        <div class="truck-card">
+            <img src="kamaz.jpg" alt="Мой КАМАЗ">
         </div>
 
         <footer>
