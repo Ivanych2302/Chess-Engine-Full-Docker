@@ -3,98 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Chess Online PRO Engine | Ivanych</title>
-    <meta name="description" content="Отримайте доступ до професійного шахового двигуна на Node.js та Docker. Повний код, оновлення та підтримка від Ivanych за ціною кави.">
-    <meta name="keywords" content="шаховий двигун, chess engine, node.js, docker, підписка на скрипт шахів, Ivanych">
-    <meta name="author" content="Ivanych">
-
-    <meta property="og:title" content="Chess Online PRO Engine | Ivanych">
-    <meta property="og:description" content="Професійне рішення для вашого шахового проекту. Доступ до коду та оновлень через Patreon.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ivanych.pp.ua">
-
+    <title>Іванич | TikTok & Facebook</title>
     <style>
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            background: #1a1a1a; 
-            color: white; 
-            text-align: center; 
-            padding: 50px 20px; 
+        * {
+            box-sizing: border-box;
             margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
-        .container { 
-            max-width: 600px; 
-            margin: 0 auto; 
-            background: #2d2d2d; 
-            padding: 40px; 
-            border-radius: 15px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
+
+        body {
+            background: #0f172a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
         }
-        h1 { color: #f39c12; margin-bottom: 10px; font-size: 32px; }
-        p { font-size: 18px; line-height: 1.6; color: #ccc; }
-        .features { text-align: left; margin: 30px 0; padding: 0; }
-        .features li { 
-            list-style: none; 
-            margin-bottom: 15px; 
-            border-left: 4px solid #f39c12; 
-            padding-left: 15px; 
-            font-size: 17px;
+
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
         }
-        .price-tag {
-            font-size: 24px;
-            color: #fff;
-            margin-bottom: 20px;
-            font-weight: bold;
+
+        .avatar {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #38bdf8;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
         }
-        .price-tag span { color: #f39c12; }
-        .btn { 
-            display: inline-block; 
-            background: #f39c12; 
-            color: #1a1a1a; 
-            padding: 20px 40px; 
-            text-decoration: none; 
-            font-weight: bold; 
-            font-size: 20px; 
-            border-radius: 50px; 
-            transition: 0.3s; 
-            margin-top: 10px; 
-            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 8px;
         }
-        .btn:hover { 
-            background: #e67e22; 
-            transform: scale(1.05); 
-            box-shadow: 0 6px 20px rgba(230, 126, 34, 0.5);
+
+        .bio {
+            color: #94a3b8;
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            line-height: 1.4;
         }
-        .footer { 
-            margin-top: 40px; 
-            font-size: 14px; 
-            color: #666; 
-            border-top: 1px solid #3d3d3d;
-            padding-top: 20px;
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
-        strong { color: #fff; }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-tiktok {
+            background: linear-gradient(45deg, #00f2fe, #4facfe);
+            color: #000000;
+        }
+
+        .btn-facebook {
+            background: #1877f2;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <h1>🏆 Chess Online PRO</h1>
-        <p>Професійне рішення для запуску власної шахової платформи</p>
-        
-        <ul class="features">
-            <li>✅ <strong>Повний вихідний код:</strong> Node.js + Socket.io.</li>
-            <li>✅ <strong>Docker-контейнер:</strong> Запуск однією командою.</li>
-            <li>✅ <strong>Регулярні оновлення:</strong> Доступ до нових функцій.</li>
-            <li>✅ <strong>Технічна підтримка:</strong> Допомога в налаштуванні.</li>
-        </ul>
+        <!-- Завантаж фото профілю в папку сайту і назви avatar.jpg -->
+        <img src="avatar.jpg" alt="Іванич" class="avatar">
 
-        <div class="price-tag">Всього <span>$3.00</span> / місяць</div>
+        <h1>Іванич</h1>
+        <p class="bio">Життя, техніка, гумор та контент у моїх соцмережах!</p>
 
-        <a href="https://www.patreon.com/c/ivanych" class="btn">ОТРИМАТИ ДОСТУП НА PATREON</a>
-        
-        <div class="footer">
-            <p>© 2026 Ivanych. Професійна розробка шахового софту.</p>
+        <div class="links-container">
+            <a href="https://www.tiktok.com/@san_ivanych" target="_blank" class="btn btn-tiktok">
+                🎵 Мій TikTok (@san_ivanych)
+            </a>
+
+            <a href="https://www.facebook.com/sashaivanych/" target="_blank" class="btn btn-facebook">
+                📘 Мій Facebook (@sashaivanych)
+            </a>
         </div>
+
+        <footer>
+            © ivanych.pp.ua
+        </footer>
     </div>
+
 </body>
 </html>
